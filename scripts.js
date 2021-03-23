@@ -7,6 +7,15 @@ favMovie();
 favMovie("L3p", "The Boondock Saints");
 //create getFirstName function
 let getFirstName = (name = "Tommy Wiseau") => {
+  //create firstName that splits name into an array
   const firstName = name.split(" ");
+  //log firstName index 0 to console
   return console.log(firstName[0]);
 };
+//create getFirstNameConcise
+let getFirstNameConcise = (name = "Tommy Wiseau") =>
+  console.log(name.split(" ")[0]);
+//call getFirstName
+getFirstName();
+//call getFirstNameConcise
+getFirstNameConcise();
