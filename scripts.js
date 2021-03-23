@@ -30,9 +30,9 @@ let me = ["L3p", "Colorado", "Grilled Trout"];
 //call aboutMe using me
 aboutMe(...me);
 //create myName
-let myName = "Patrick Hogan";
-//create fullName function
-let fullName = (name) => {
+let myName = "L3p";
+//create spellName function
+let spellName = (name) => {
   //create nameArray that passes name into an array
   let nameArray = [...name];
   //for i is 0, i is less than nameArrays length, add 1 to i
@@ -41,5 +41,5 @@ let fullName = (name) => {
     console.log(nameArray[i]);
   }
 };
-//call fullName using myName
-fullName(myName);
+//call spellName using myName
+spellName(myName);
