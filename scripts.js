@@ -29,3 +29,5 @@ let aboutMe = (name, location, favFood) =>
 let me = ["L3p", "Colorado", "Grilled Trout"];
 //call aboutMe using me
 aboutMe(...me);
+//create myName
+let myName = "Patrick Hogan";
