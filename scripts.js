@@ -31,3 +31,13 @@ let me = ["L3p", "Colorado", "Grilled Trout"];
 aboutMe(...me);
 //create myName
 let myName = "Patrick Hogan";
+//create fullName function
+let fullName = (name) => {
+  //create nameArray that passes name into an array
+  let nameArray = [...name];
+  //for i is 0, i is less than nameArrays length, add 1 to i
+  for (i = 0; i < nameArray.length; i++) {
+    //log i to console
+    console.log(i);
+  }
+};
