@@ -4,3 +4,5 @@ let favMovie = (name = "Tommy Wiseau", movie = "The Room") => {
 };
 //call favMovie
 favMovie();
+//call favMovie with custom params
+favMovie("L3p", "The Boondock Saints");
