@@ -14,8 +14,14 @@ let getFirstName = (name = "Tommy Wiseau") => {
 };
 //create getFirstNameConcise
 let getFirstNameConcise = (name = "Tommy Wiseau") =>
+  //log name split into an array index 0
   console.log(name.split(" ")[0]);
 //call getFirstName
 getFirstName();
 //call getFirstNameConcise
 getFirstNameConcise();
+//create aboutMe function
+let aboutMe = (name, location, favFood) =>
+  console.log(
+    `My name is ${name}, I live in ${location}, and my favorite food is ${favFood}.`
+  );
