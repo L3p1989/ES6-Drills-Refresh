@@ -37,7 +37,9 @@ let fullName = (name) => {
   let nameArray = [...name];
   //for i is 0, i is less than nameArrays length, add 1 to i
   for (i = 0; i < nameArray.length; i++) {
-    //log i to console
-    console.log(i);
+    //log nameArray indexed by i to console
+    console.log(nameArray[i]);
   }
 };
+//call fullName using myName
+fullName(myName);
