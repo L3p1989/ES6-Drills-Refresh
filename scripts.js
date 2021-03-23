@@ -27,3 +27,5 @@ let aboutMe = (name, location, favFood) =>
   );
 //create me array
 let me = ["L3p", "Colorado", "Grilled Trout"];
+//call aboutMe using me
+aboutMe(...me);
