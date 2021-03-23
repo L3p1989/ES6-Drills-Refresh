@@ -25,3 +25,5 @@ let aboutMe = (name, location, favFood) =>
   console.log(
     `My name is ${name}, I live in ${location}, and my favorite food is ${favFood}.`
   );
+//create me array
+let me = ["L3p", "Colorado", "Grilled Trout"];
